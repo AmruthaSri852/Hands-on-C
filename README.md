@@ -1,5 +1,5 @@
 # Hands-on-C
-Many have their great experiences of coding rooted with C programming, If you are one of them, So I am.
+Many have their great experiences of coding rooted with C programming, If you are one of them, So am I.
 
 ### Major Focus: 
     1. Neat code in the best possible ways
