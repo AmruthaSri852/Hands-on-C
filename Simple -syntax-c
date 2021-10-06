@@ -1,5 +1,8 @@
+//C program to Print 
 #include<stdio.h>
 int main()
-{ printf("Simple code");
-return 0;
+{   
+    printf("Simple C code"); // why (;) over (.)? period can make things natural 
+                             //but its also applied at many places like decimal points 
+   return 0;
 }
