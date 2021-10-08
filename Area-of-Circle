@@ -16,7 +16,6 @@ int main()
 
    return 0;
 }
-
 // code output:
 //Enter the radius: 1
 //The area of circle: 3.14
