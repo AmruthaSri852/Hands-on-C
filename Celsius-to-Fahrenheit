@@ -4,9 +4,9 @@
 
 int main()
 {
-    float Celsius,Fahrenheit;
+    float Celsius,Fahrenheit;  //intialize 
 
-    printf("Enter the Temperature in Celsius: ");
+    printf("Enter the Temperature in Celsius: ");    //User input: temperature in Celsius  
     scanf("%f",&Celsius);
 
     Fahrenheit=((1.8)*Celsius)+32;  //Consider 9/5=1.8 (divisions are not preferable)
