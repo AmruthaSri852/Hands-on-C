@@ -13,7 +13,7 @@ int main()
         printf("%d is an Even integer",num);
     else printf("%d is a Odd integer\n",num);  //else its odd 
 
-   return 0;
+   return 0;   
 }
 //code output:
 //Enter the integer: -9
