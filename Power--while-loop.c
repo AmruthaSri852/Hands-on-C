@@ -1,27 +1,35 @@
 //C program to calculate power of a number using while loop
 //code input:
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int i=1, base, Expo;
-    long power=1;
+    int base, exponent;
+    float power = 1;
+    int i;
 
-    printf("Enter the base value: ");
-    scanf("%d",&base);
-    printf("Enter the exponent value: ");
-    scanf("%d",&Expo);
-
-    while (i<=Expo)
+    printf("Enter base: ");
+    scanf("%d", &base);
+    printf("Enter exponent: ");
+    scanf("%d", &exponent);
+    int expo = exponent;
+    while (expo < 0)
     {
-        power=power*base;++i;
+        {
+            power = power/base;
+            expo++;
+        }
     }
-
-    printf("%d^%d=%d.\n",base, Expo, power);
-   return 0;
+    if(exponent >0)
+    {
+        for(i = 1; i <= exponent; i++)
+        {
+            power = power * base;
+        }
+    }
+    printf("%d ^ %d = %f", base, exponent, power);
+    return 0;
 }
-
 //code output:
-//Enter the base value: 3
-//Enter the exponent value: 4
-//3^4=81.
-//
+//Enter base: 2
+//Enter exponent: -4
+//2 ^ -4= 0.062500
