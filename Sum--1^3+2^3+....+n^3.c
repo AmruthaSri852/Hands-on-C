@@ -10,7 +10,7 @@ int main()
     scanf("%d",&n);
     sum=pow(((n*(n+1))/2),2);
     printf("Sum of the series: ");
-    for (i=1;i<=n;++i)
+    for (i=0;i<=n;++i)
     {
         if (i!=n)
             printf("%d^3+ ",i);
