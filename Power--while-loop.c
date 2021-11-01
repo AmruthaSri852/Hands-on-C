@@ -1,4 +1,4 @@
-//C program to calculate power of a number using while loop
+//C program to calculate power of a number using while loop and for negative inputs
 //code input:
 #include <stdio.h>
 int main()
