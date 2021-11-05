@@ -10,7 +10,7 @@ Many have their great experiences of coding rooted with C programming, If you ar
     For me C programming, is basic to understand all complex codes dumped in many languages 
     Learning C helped me alot in improvizing my technical knowlegde. 
     Now after C I don't feel worried seeing a complex code cuz' of the experience maybe Idk but 
-    I don't want to lose this wonderful experience so filing it up here.    
+    I don't want to lose this wonderful experience so filing it up here.     
    
 
      
